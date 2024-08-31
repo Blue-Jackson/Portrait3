@@ -95,7 +95,7 @@ loader.load((loader, resources) => {
   const offset = 2;
   const arrayData = isEmpty(src, width, height);
 
-  container.x = innerWidth / 2 - width / 2;
+  container.x = innerWidth - width; // Right-align the image
   container.y = innerHeight / 2 - height / 2;
 
   for (let i = 0, length = arrayData.length; i < length; i += 4) {
@@ -116,8 +116,6 @@ loader.load((loader, resources) => {
 
 const mousemove = e => {
   let { x: lx, y: ly } = e.data.getLocalPosition(container);
-  //lx = lx < -100 ? undefined : lx
-  //ly = ly < -100 ? undefined : ly
   
   const { x: gx, y: gy } = e.data.global;
 
