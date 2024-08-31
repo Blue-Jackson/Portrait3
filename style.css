@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap");
+t@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap");
 
 *,
 *::before,
@@ -14,7 +14,7 @@
 
 body {
   margin: 0;
-  cursor: none;
+  cursor: default;
   overflow: hidden;
 }
 
