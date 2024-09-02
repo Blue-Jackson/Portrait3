@@ -13,7 +13,7 @@ let particles = [];
 content.appendChild(app.view);
 app.stage.addChild(container);
 
-loader.add("img", "https://github.com/Blue-Jackson/Portrait3/blob/main/lowreshighcontrast02.png?raw=true");
+loader.add("img", "https://raw.githubusercontent.com/Blue-Jackson/Portrait3/main/lowreshighcontrast02.png");
 
 class Particle {
   constructor(x, y, size, texture) {
